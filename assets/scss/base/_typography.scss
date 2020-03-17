@@ -1,0 +1,12 @@
+@include font-face-ttf(
+  $font-primary,
+  "../fonts/Montserrat/",
+  "Montserrat-Regular"
+);
+@include font-face-ttf(
+  $font-primary,
+  "../fonts/Montserrat/",
+  "Montserrat-Bold",
+  700
+);
+@include font-face-ttf($font-secondary, "../fonts/SpaceMono/", "SpaceMono");

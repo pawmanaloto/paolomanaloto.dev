@@ -1,23 +1,19 @@
 <template>
   <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        paolomanaloto.com
-      </h1>
-      <h2 class="subtitle">
-        Paolo Manaloto personal website
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+    <div class="hero">
+      <div class="hero__intro font-secondary mb-3">Hi, my name is</div>
+      <h1 class="hero__header font-primary text-white">Paolo Manaloto.</h1>
+      <h2 class="hero__subheader font-primary">I build things for the web.</h2>
+
+      <div class="hero__content mt-3">
+        I'm a senior web developer based in Clark, Pampanga specializing in building (and occasionally designing) exceptional, high-quality websites and applications.
       </div>
+      
+      <div class="hero__content mt-3">
+        <strong>Please bare with me, proper website coming soon.</strong>
+      </div>
+
+
     </div>
   </section>
 </template>
@@ -32,35 +28,30 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+  section {
+    padding: 150px 0px;
+  }
 
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+  .hero {
+    &__intro {
+      color: $color-cyan;
+    }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+    &__header,
+    &__subheader {
+      font-size: 80px;
+      line-height: 1.1;
+      font-weight: 700;
+    }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+    &__subheader {
+      color: $color-light-white;
+    }
 
-.links {
-  padding-top: 15px;
-}
+    &__content {
+      max-width: 500px;
+      color: $color-light-white;
+    }
+  }
 </style>

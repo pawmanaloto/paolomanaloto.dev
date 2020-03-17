@@ -1,8 +1,19 @@
 <template>
   <div>
+    <MainNav/>
     <nuxt/>
   </div>
 </template>
+
+<script>
+import MainNav from '~/components/MainNav'
+
+export default {
+  components: {
+    MainNav
+  }
+}
+</script>
 
 <style>
 html {

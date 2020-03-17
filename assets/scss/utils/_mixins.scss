@@ -1,0 +1,15 @@
+@mixin font-face-ttf(
+  $fontFamily,
+  $path,
+  $fileName,
+  $fontWeight: normal,
+  $fontStyle: normal
+) {
+  @font-face {
+    font-family: $fontFamily;
+    src: url("#{$path + $fileName}.ttf") format("truetype");
+    //src: url('#{$path + $fileName}.eot?#iefix') format('embedded-opentype'), url('#{$path + $fileName}.woff') format('woff'), url('#{$path + $fileName}.ttf') format('truetype'), url('#{$path + $fileName}.svg##{$svgLabel}') format('svg');
+    font-weight: $fontWeight;
+    font-style: $fontStyle;
+  }
+}
