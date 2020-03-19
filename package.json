@@ -20,6 +20,9 @@
     "@nuxtjs/axios": "^5.0.0"
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@nuxtjs/fontawesome": "^1.1.1",
     "@nuxtjs/style-resources": "^1.0.0",
     "babel-eslint": "^8.2.1",
     "eslint": "^5.0.1",

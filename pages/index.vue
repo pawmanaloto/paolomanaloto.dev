@@ -6,13 +6,35 @@
       <h2 class="hero__subheader font-primary">I build things for the web.</h2>
 
       <div class="hero__content mt-3">
-        I'm a senior web developer based in Clark, Pampanga specializing in building (and occasionally designing) exceptional, high-quality websites and applications.
+        I'm a senior web developer based in Clark, Pampanga specializing in building (and sometimes designing) exceptional, high-quality websites and applications. And I love what I do.
       </div>
       
       <div class="hero__content mt-3">
         <strong>Please bare with me, proper website coming soon.</strong>
       </div>
-
+      <div class="d-block mt-3">
+        <a
+          href="https://github.com/pawmanaloto/"
+          class="text-white mr-2"
+          target="_BLANK"
+          rel="noreferrer nofollow">
+          <fa-icon :icon="['fab', 'github']" />
+        </a>
+        <a
+          href="https://ph.linkedin.com/in/paolo-ferdinand-manaloto"
+          class="text-white mr-2"
+          target="_BLANK"
+          rel="noreferrer nofollow">
+          <fa-icon :icon="['fab', 'linkedin-in']" />
+        </a>
+        <a
+          href="https://www.instagram.com/pawmanaloto/"
+          class="text-white mr-2"
+          target="_BLANK"
+          rel="noreferrer nofollow">
+          <fa-icon :icon="['fab', 'instagram']" />
+        </a>
+      </div>
 
     </div>
   </section>

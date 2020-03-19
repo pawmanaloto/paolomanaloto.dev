@@ -43,6 +43,8 @@ module.exports = {
     "@nuxtjs/style-resources"
   ],
 
+  buildModules: ["@nuxtjs/fontawesome"],
+
   styleResources: {
     scss: ["./assets/scss/utils/_variables.scss"]
   },
@@ -52,6 +54,13 @@ module.exports = {
    */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+  },
+
+  fontawesome: {
+    component: "FaIcon",
+    icons: {
+      brands: ["faGithub", "faInstagram", "faLinkedinIn"]
+    }
   },
 
   /*
