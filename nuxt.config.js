@@ -13,7 +13,10 @@ module.exports = {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: pkg.description }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { rel: "stylesheet", href: "https://use.typekit.net/gjj4uzl.css" }
+    ]
   },
 
   /*
@@ -59,7 +62,8 @@ module.exports = {
   fontawesome: {
     component: "FaIcon",
     icons: {
-      brands: ["faGithub", "faInstagram", "faLinkedinIn"]
+      brands: ["faGithub", "faInstagram", "faLinkedinIn"],
+      regular: ["faPaperPlane"]
     }
   },
 

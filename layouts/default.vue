@@ -1,16 +1,19 @@
 <template>
   <div>
-    <MainNav/>
+    <!-- <MainNav/> -->
     <nuxt/>
+    <SocialIcons/>
   </div>
 </template>
 
 <script>
 import MainNav from '~/components/MainNav'
+import SocialIcons from '~/components/SocialIcons'
 
 export default {
   components: {
-    MainNav
+    MainNav,
+    SocialIcons
   }
 }
 </script>
