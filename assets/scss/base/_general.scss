@@ -3,6 +3,12 @@ body {
   font-family: $font-secondary;
 }
 
+.bg {
+  &-primary-dark {
+    background-color: $bg-primary-dark !important;
+  }
+}
+
 .font {
   &-primary {
     font-family: $font-primary !important;
@@ -10,6 +16,10 @@ body {
 
   &-secondary {
     font-family: $font-secondary !important;
+  }
+
+  &-w-700 {
+    font-weight: 700 !important;
   }
 }
 

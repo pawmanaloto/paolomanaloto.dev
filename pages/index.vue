@@ -1,29 +1,41 @@
 <template>
-  <section class="container">
-    <div class="hero">
-      <div class="hero__intro font-secondary mb-3">Hi, my name is</div>
-      <h1 class="hero__header font-primary text-white">Paolo Manaloto.</h1>
-      <h2 class="hero__subheader font-primary">I build things for the web.</h2>
-      
-      <div class="hero__content mt-3">
-        I'm a senior web developer based in Clark, Pampanga specializing in building (and sometimes designing) exceptional, high-quality websites and applications. And I love what I do.
-      </div>
-      
-      <div class="hero__content mt-3">
-        <strong>Please bare with me, proper website coming soon.</strong>
-      </div>
+  <div>
+    <section class="hero">
+      <div class="hero-body container">
+        <div class="hero-body__intro font-secondary mb-3">Hi, my name is</div>
+        <h1 class="hero-body__header font-primary text-white">Paolo Manaloto.</h1>
+        <h2 class="hero-body__subheader font-primary">I build things for the web.</h2>
+        
+        <div class="hero-body__content mt-5">
+          I'm a senior web developer based in Clark, Philippines enjoying in building (and once in a while designing) exceptional, superb websites, and applications. I'm passionate on what I do.
+        </div>
+        
+        <div class="hero-body__content mt-3">
+          <strong>Please bare with me, proper website coming soon.</strong>
+        </div>
 
-      <a
-        href="mailto:manalotopaolof@gmail.com"
-        class="button mt-5">
-        <fa-icon
-          :icon="['far', 'paper-plane']"
-          class="mr-2"/>
-        <span>Get in Touch</span>
-      </a>
+        <a
+          href="mailto:manalotopaolof@gmail.com"
+          class="button mt-5">
+          <fa-icon
+            :icon="['far', 'paper-plane']"
+            class="mr-2"/>
+          <span>Get in Touch</span>
+        </a>
 
-    </div>
-  </section>
+      </div>
+    </section>
+
+    <section class="bg-primary-dark">
+      <div class="container text-left">
+        <div class="hero-body__intro font-secondary mb-3">About Me</div>
+        <h2 class="font-primary font-w-700 text-white">Hi, I’m Paolo. Nice to meet you.</h2>
+        <p class="hero-body__content">I'm very passionate about creating and developing websites and web applications. I enjoy learning new technology or new things in the web. It's always my objective to learn new something everyday.</p>
+        <p class="hero-body__content">My goal is to always build quality digital products that will be helpful for the both business and consumer use.</p>
+      </div>
+    </section>
+
+  </div>
 </template>
 
 <script>
@@ -42,6 +54,10 @@ export default {
   }
 
   .hero {
+    height: 100vh;
+  }
+
+  .hero-body {
     &__intro {
       font-size: 1.25rem;
       color: $color-cyan;
