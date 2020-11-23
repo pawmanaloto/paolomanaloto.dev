@@ -35,7 +35,7 @@
       </div>
     </section>
 
-    <section class="bg-primary-dark">
+    <!-- <section class="bg-primary-dark">
       <div class="container text-left">
         <div class="hero-body__intro font-secondary mb-3">About Me</div>
         <h2 class="font-primary font-w-700 text-white">Hi, I’m Paolo. Nice to meet you.</h2>
@@ -44,7 +44,7 @@
           <p class="hero-body__content">My goal is to always build quality digital products that will be helpful for the both business and consumer use.</p>
         </div>
       </div>
-    </section>
+    </section> -->
 
   </div>
 </template>
