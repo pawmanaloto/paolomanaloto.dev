@@ -1,7 +1,16 @@
 <template>
-  <div>
+  <header>
     <div class="container">
-      test
+      <Logo />
     </div>
-  </div>
+  </header>
 </template>
+<script>
+import Logo from "~/components/Logo.vue";
+
+export default {
+  components: {
+    Logo
+  }
+};
+</script>

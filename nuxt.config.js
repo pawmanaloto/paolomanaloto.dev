@@ -1,8 +1,6 @@
 const pkg = require("./package");
 
 module.exports = {
-  mode: "universal",
-
   /*
    ** Headers of the page
    */
@@ -49,7 +47,7 @@ module.exports = {
   buildModules: ["@nuxtjs/fontawesome"],
 
   styleResources: {
-    scss: ["./assets/scss/utils/_variables.scss"]
+    scss: "./assets/scss/*.scss"
   },
 
   /*
