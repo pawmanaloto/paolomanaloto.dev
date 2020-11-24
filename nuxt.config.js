@@ -69,7 +69,7 @@ module.exports = {
   "google-gtag": {
     id: "G-4YRYYGC0GE", // Use as fallback if no runtime config is provided
     config: {
-      debug: true
+      //debug: true
     }
   },
 
