@@ -41,10 +41,11 @@ module.exports = {
     // Doc: https://bootstrap-vue.js.org/docs/
     "bootstrap-vue/nuxt",
     // Doc: https://github.com/nuxt-community/style-resources-module
-    "@nuxtjs/style-resources"
+    "@nuxtjs/style-resources",
+    "@nuxtjs/google-gtag"
   ],
 
-  buildModules: ["@nuxtjs/fontawesome", "@nuxtjs/google-analytics"],
+  buildModules: ["@nuxtjs/fontawesome"],
 
   styleResources: {
     scss: "./assets/scss/*.scss"
@@ -65,8 +66,11 @@ module.exports = {
     }
   },
 
-  googleAnalytics: {
-    id: "G-4YRYYGC0GE" // Use as fallback if no runtime config is provided
+  "google-gtag": {
+    id: "G-4YRYYGC0GE", // Use as fallback if no runtime config is provided
+    config: {
+      debug: true
+    }
   },
 
   /*
