@@ -44,7 +44,7 @@ module.exports = {
     "@nuxtjs/style-resources"
   ],
 
-  buildModules: ["@nuxtjs/fontawesome"],
+  buildModules: ["@nuxtjs/fontawesome", "@nuxtjs/google-analytics"],
 
   styleResources: {
     scss: "./assets/scss/*.scss"
@@ -63,6 +63,10 @@ module.exports = {
       brands: ["faGithub", "faInstagram", "faLinkedinIn"],
       regular: ["faPaperPlane"]
     }
+  },
+
+  googleAnalytics: {
+    id: "G-4YRYYGC0GE" // Use as fallback if no runtime config is provided
   },
 
   /*

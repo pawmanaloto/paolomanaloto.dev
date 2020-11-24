@@ -24,6 +24,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@nuxtjs/fontawesome": "^1.1.1",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/style-resources": "^1.0.0",
     "babel-eslint": "^8.2.1",
     "eslint": "^5.0.1",

@@ -23,7 +23,7 @@
             </div>
 
             <div class="hero-body__content mt-3">
-              <strong>Please bare with me, proper website coming soon.</strong>
+              <strong>Please bear with me, proper website coming soon.</strong>
             </div>
 
             <div class="mt-5">
