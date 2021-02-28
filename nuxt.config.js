@@ -28,12 +28,12 @@ module.exports = {
       },
       {
         hid: "twitter:title",
-        property: "twitter:title",
+        name: "twitter:title",
         content: pkg.author
       },
       {
         hid: "twitter:description",
-        property: "twitter:description",
+        name: "twitter:description",
         content: pkg.description
       }
     ],
