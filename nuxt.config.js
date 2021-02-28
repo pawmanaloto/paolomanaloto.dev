@@ -9,7 +9,33 @@ module.exports = {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: pkg.description }
+      { hid: "description", name: "description", content: pkg.description },
+      {
+        hid: "robots",
+        name: "robots",
+        content:
+          "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+      },
+      {
+        hid: "og:title",
+        property: "og:title",
+        content: pkg.author
+      },
+      {
+        hid: "og:description",
+        property: "og:description",
+        content: pkg.description
+      },
+      {
+        hid: "twitter:title",
+        property: "twitter:title",
+        content: pkg.author
+      },
+      {
+        hid: "twitter:description",
+        property: "twitter:description",
+        content: pkg.description
+      }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
